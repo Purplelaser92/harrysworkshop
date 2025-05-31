@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "harrysworkshop",
+	"version": "${version}",
+	"name": "Harry's Workshop",
+	"description": "It's my workshop!",
+	"authors": [
+		"Harry"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/harrysworkshop/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.harry.harrysworkshop.HarrysWorkshop"
+		],
+		"fabric-datagen": [
+			"net.harry.harrysworkshop.HarrysWorkshopDataGenerator"
+		],
+		"client": [
+			"net.harry.harrysworkshop.HarrysWorkshopClient"
+		]
+	},
+	"mixins": [
+		"harrysworkshop.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
