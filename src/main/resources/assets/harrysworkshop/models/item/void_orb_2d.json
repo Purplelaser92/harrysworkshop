@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "harrysworkshop:item/void_orb_2d"
+  }
+}

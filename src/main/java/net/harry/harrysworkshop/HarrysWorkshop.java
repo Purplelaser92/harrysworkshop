@@ -2,6 +2,7 @@ package net.harry.harrysworkshop;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.harry.harrysworkshop.block.ModBlocks;
 import net.harry.harrysworkshop.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class HarrysWorkshop implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
