@@ -2,5 +2,7 @@
   "item.harrysworkshop.pink_spiral": "Pink Spiral",
   "item.harrysworkshop.void_orb": "Void Orb",
 
-  "block.harrysworkshop.void_block": "Void Block"
+  "block.harrysworkshop.void_block": "Void Block",
+
+  "itemgroup.harrysworkshop.harrysworkshop_items": "Harry's Workshop"
 }

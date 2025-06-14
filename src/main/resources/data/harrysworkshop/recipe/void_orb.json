@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "harrysworkshop:void_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "harrysworkshop:void_orb"
+  }
+}
