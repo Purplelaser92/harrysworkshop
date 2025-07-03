@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.VOID_ORB);
                         entries.add(ModItems.BANISHMENT_STICK);
                         entries.add(ModBlocks.VOID_BLOCK);
+                        entries.add(ModBlocks.BLUE_MASS);
 
                     })
 

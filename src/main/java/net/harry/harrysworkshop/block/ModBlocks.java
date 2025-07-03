@@ -2,6 +2,7 @@ package net.harry.harrysworkshop.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.harry.harrysworkshop.HarrysWorkshop;
+import net.harry.harrysworkshop.block.custom.BlueMass;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -20,6 +21,13 @@ public class ModBlocks {
                     .strength(4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.SCULK)
+            ));
+
+    public static final Block BLUE_MASS = registerBlock("blue_mass",
+            new BlueMass(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE)
             ));
 
     private static Block registerBlock(String name, Block block) {
