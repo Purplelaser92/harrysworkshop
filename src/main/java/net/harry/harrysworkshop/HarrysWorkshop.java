@@ -2,6 +2,7 @@ package net.harry.harrysworkshop;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.harry.harrysworkshop.block.ModBlocks;
 import net.harry.harrysworkshop.item.ModItemGroups;
 import net.harry.harrysworkshop.item.ModItems;
@@ -17,5 +18,7 @@ public class HarrysWorkshop implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.PORTABLE_FIRE, 3200);
 	}
 }

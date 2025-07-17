@@ -2,9 +2,16 @@
   "item.harrysworkshop.pink_spiral": "Pink Spiral",
   "item.harrysworkshop.void_orb": "Void Orb",
   "item.harrysworkshop.banishment_stick": "Banishment Stick",
+  "item.harrysworkshop.blue_food": "Blue Food",
+  "item.harrysworkshop.portable_fire": "Portable Fire",
 
   "block.harrysworkshop.void_block": "Void Block",
   "block.harrysworkshop.blue_mass": "Blue Mass",
 
-  "itemgroup.harrysworkshop.harrysworkshop_items": "Harry's Workshop"
+  "itemgroup.harrysworkshop.harrysworkshop_items": "Harry's Workshop",
+
+  "tooltip.harrysworkshop.blue_mass.tooltip": "Repels the §0Void Orb§r when Right-Clicked.",
+  "tooltip.harrysworkshop.banishment_stick.shift_down": "Fly with another entity!",
+  "tooltip.harrysworkshop.banishment_stick": "Hold SHIFT for information.",
+  "tooltip.harrysworkshop.portable_fire" : "A small fire!"
 }

@@ -19,8 +19,12 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_SPIRAL);
                         entries.add(ModItems.VOID_ORB);
                         entries.add(ModItems.BANISHMENT_STICK);
+                        entries.add(ModItems.BLUE_FOOD);
+                        entries.add(ModItems.PORTABLE_FIRE);
                         entries.add(ModBlocks.VOID_BLOCK);
                         entries.add(ModBlocks.BLUE_MASS);
+
+
 
                     })
 
