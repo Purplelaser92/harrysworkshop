@@ -1,6 +1,7 @@
 package net.harry.harrysworkshop.block.custom;
 
 import net.harry.harrysworkshop.item.ModItems;
+import net.harry.harrysworkshop.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 
@@ -26,7 +27,7 @@ public class BlueMass extends Block {
 
     @Override
     protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if (stack.isOf(ModItems.VOID_ORB)) {
+        if (isValidItem(player.getMainHandStack())) {
             player.damage(world.getDamageSources().generic(), 5);
             return ItemActionResult.SUCCESS;
         }
@@ -35,6 +36,11 @@ public class BlueMass extends Block {
 
 
     }
+
+    private boolean isValidItem(ItemStack mainHandStack) {
+        return mainHandStack.isIn(ModTags.Items.REPELLED_BY_BLUE_MASS);
+    }
+
 
     @Override
     public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
